@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-const Card = ({name, email, id}) =>{
+const Card = ({name, email, username, id}) =>{
     
 
     return(
@@ -12,6 +12,7 @@ const Card = ({name, email, id}) =>{
         <div>
             <h2>{name}</h2>
             <p>{email}</p>
+            <p>{username}</p>
         </div>
     </div>
 )};
